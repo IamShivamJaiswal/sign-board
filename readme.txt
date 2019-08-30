@@ -1,0 +1,9 @@
+- This dataset consists of 428 real images in the image folder. Annotation corresponding to image presents in Annotation folder.
+- The Annotation for the image has the same name that of the image just with the difference of extension. For example, if the image name is "1.jpg" then the corresponding annotation will be "1.txt".
+- The format for the storage of the annotation file is as such.
+- The no. of the line in annotation line denotes no of bounding box presents.
+- A single line represents a single bounding box. format is as follow x1, x2, x3, x4, y1, y2, y3, y4, groundTruth::Language. Where (x1,y1) is the top left, (x2,y2) is top right, (x3,y3) bottom right, (x4,y4) bottom left.
+- the order of point is in the clockwise order starting from the top-left points.
+- if the text is not recognizable or ground truth is not known, the ## is used for that representation.
+- For all of the image in the ground, truth is considered as ## only.
+- Though in most of the bounding box Hindi is the language in some cases English is also present. Language other than Hindi and English is considered as "other."
