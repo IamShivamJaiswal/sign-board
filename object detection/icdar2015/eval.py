@@ -1,6 +1,6 @@
 from collections import namedtuple
 import importlib
-import Polygon as plg
+from shapely.geometry import  polygon as plg
 import numpy as np
 import re
 from typing import Dict, Tuple, List
